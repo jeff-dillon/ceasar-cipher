@@ -3,12 +3,14 @@
 import string
 
 def encryption():
-
-    import string
+   
+    import string 
 plain_text = input("what do you want to encrypt? ")
-shift  = input("Please enter encrytion key ")
+shift  = int(input("Please enter encrytion key. "))
 alphabet = string.ascii_lowercase
 shifted = alphabet[shift:] + alphabet[:shift]
 table = str.maketrans(alphabet, shifted)
+
 encrypted = plain_text.translate(table)
+
 print(encrypted)
