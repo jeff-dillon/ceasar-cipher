@@ -1,3 +1,14 @@
+#Here is where my readme starts
+## 
+
+> My method of doing this was with slicing
+i took one slice and added to the back of the second slice.
+this created the shift needed for the encrytion.
+
+>to decrypt i uses the key given and subtracted 60 to get back to the coorrect order.
+> I created to modules for fun one to encrypt and one tp decrypt.
+>ii found this lesseon very informativer and helpfuil
+
 # Caesar Cipher Exercise
 Code Louisville Python programming exercise.
 
